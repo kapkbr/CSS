@@ -1,0 +1,10 @@
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    color: black
+}
+
+input, button {
+    font: inherit;
+}

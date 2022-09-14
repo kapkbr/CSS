@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  padding: 5% 10%;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+ol {
+  /* list-style-type: disc; */
+  list-style-type: lower-alpha;
+  list-style-type: decimal;
+  list-style-type: decimal-leading-zero;
+  list-style-type: none;
+  padding: 0;
+  list-style-image: url('../images/checkmark.png');
+}
+
+ui li:nth-child(2) {
+  color: red;
+}
+
+::marker {
+  color: black;
+  font-family: fantasy;
+  font-size: 1.5em;
+  content: "only $5 >>"
+}
