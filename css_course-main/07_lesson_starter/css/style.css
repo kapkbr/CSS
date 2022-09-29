@@ -7,7 +7,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     /* cursor: not-allowed; */
     cursor: pointer;
     color: hsl(207, 44%, 49%);
@@ -19,6 +19,7 @@ a:visited {
 
 a:hover, a:focus {
     /* color: hsl(189, 44%, 49%); */
+    /* color: hsl(207, 44%, 49%, 0.9); */
     opacity: 0.9;
 }
 

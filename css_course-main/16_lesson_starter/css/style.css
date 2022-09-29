@@ -9,9 +9,87 @@
 body {
   font-family: "Nunito", sans-serif;
   min-height: 100vh;
+  /* background-image: linear-gradient(steelblue, #fff); */
+  /* background-image: linear-gradient(steelblue, purple, #fff) */
+  /* background-image: linear-gradient(to left, steelblue, #fff) */
+  /* background-image: url(../img/bubbles.png), linear-gradient(to left, steelblue, #fff);
+  background-repeat: repeat-y, no-repeat;
+  background-position: right center;
+  background-size: 20%, auto; */
+
+  background: repeat-y right center url(../img/bubbles.png), linear-gradient(to left, steelblue, #fff);
+
 }
 
+.clip {
+  font-weight: 800;
+  font-size: 20rem;
+  text-align: center;
+  background-image: url(../img/scenic-2200x1331.png);
+  background-size: 100%;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* color:hsla(0, 0%, 0%, 0.20) */
+  color: transparent;
+}
+.nowrap {
+  white-space: nowrap;
+}
 
+.offscreen {
+  position: absolute;
+  left: -10000px;
+}
 
+.example {
+  margin-top: 1rem;
+  padding-left: 20px;
+  border: 1px solid red;
+}
 
+.example img {
+  width: auto;
+  height: auto;
+}
 
+.container {
+    /* background-image: url(../img/pat1.png); */
+  /* background-image: url(../img/scenic-2200x1331.png); */
+  background-image: url(../img/map-2176x1451.png);
+  background-color: rgb(251, 210, 156); /* it works like backup if background-url doesn't load */
+  /* background-repeat: no-repeat; */
+  background-repeat: repeat;
+  /* background-size: contain; */
+  background-size: cover;
+
+}
+.hero {
+  padding: 20px;
+  border-bottom: 2px solid #000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+
+  /* background-color: hsla(0, 0%, 100%, 0.40); */
+  background-color: hsla(0, 0%, 0%, 0.40);
+}
+
+.profile-pic-figure {
+  width: 30%;
+}
+
+.h1 {
+  font-size: 400%;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.profile-pic-figure img {
+  width: 100%;
+  height: auto;
+  min-width: 100; /* helps to not shrink below than this */
+  border: 5px double gray;
+  border-radius: 50%;
+}

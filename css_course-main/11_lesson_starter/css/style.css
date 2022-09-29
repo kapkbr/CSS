@@ -24,13 +24,14 @@ body {
   margin-left: 1rem;
 }
 
+.clear {
+  clear: both;
+}
+
 p {
   padding-left: 1rem;
 }
 
-.clear {
-  clear: both;
-}
 
 section {
   background-color: bisque;

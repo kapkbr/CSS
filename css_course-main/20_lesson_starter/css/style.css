@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+:root {
+
+}
+
 /* || GENERAL STYLES */
 body {
   font: 1.5rem "Nunito", sans-serif;

@@ -32,8 +32,7 @@ body {
   flex-direction: column;
 }
 
-header,
-footer {
+:is(header, footer, .card) {
   position: sticky;
   background-color: #1e293b;
   color: whitesmoke;
@@ -88,6 +87,10 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+
+.card:target {
+  border: 2px solid purple;
+} 
 
 .card figure {
   display: flex;

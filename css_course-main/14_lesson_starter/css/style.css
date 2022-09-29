@@ -17,6 +17,24 @@ body {
   min-height: 400px;
   margin-inline: auto;
   border: 1px solid #000;
+  display: flex; 
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  justify-content: space-evenly;
+  /* gap: 1rem */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  align-items: center;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row wrap; /* short hand for direction and wrap */
+  align-content: space-evenly;
 } 
 
 .box {
@@ -26,4 +44,8 @@ body {
   color: #fff;
   font-size: 2rem;
   padding: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
